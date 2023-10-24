@@ -65,9 +65,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_weight="1"
         android:orientation="horizontal"
         android:weightSum="2">
 
@@ -89,6 +88,45 @@
             android:layout_weight="1"
             android:backgroundTint="#3F51B5"
             android:text="simpson"
+            android:textAllCaps="true" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="LISTS"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btn_list_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:backgroundTint="#03A9F4"
+            android:text="list view"
+            android:layout_weight="1"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/btn_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:backgroundTint="#03A9F4"
+            android:text="Spinner"
+            android:layout_weight="1"
             android:textAllCaps="true" />
 
     </LinearLayout>
