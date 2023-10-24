@@ -36,8 +36,6 @@ public class A02_SimpsonActivity extends AppCompatActivity {
         handler.postDelayed(runnable, 6000);
     }
 
-
-
     Handler handler = new Handler();
 
     public final Runnable runnable = new Runnable() {
