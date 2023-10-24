@@ -22,6 +22,14 @@ public class S01_ListViewActivity extends AppCompatActivity {
             "Didier", "Simon", "Rima", "David 2", "Naziha", "Jérôme",
             "Ali", "Khadim", "Naoufel", "Stanlenes", "Laureline", "Nadia",
             "Didier", "Simon", "Rima", "David 2", "Naziha", "Jérôme",
+            "Ali", "Khadim",  "David 1", "Naoufel", "Stanlenes", "Laureline", "Nadia",
+            "Didier", "Simon", "Rima", "David 2", "Naziha", "Jérôme",
+            "Ali", "Khadim", "Naoufel", "Stanlenes", "Laureline", "Nadia",
+            "Didier", "Simon", "Rima", "David 2", "Naziha", "Jérôme",
+            "Ali", "Khadim", "Naoufel", "Stanlenes", "Laureline", "Nadia",
+            "Didier", "Simon", "Rima", "David 2", "Naziha", "Jérôme",
+            "Ali", "Khadim", "Naoufel", "Stanlenes", "Laureline", "Nadia",
+            "Didier", "Simon", "Rima", "David 2", "Naziha", "Jérôme",
             "Ali", "Khadim"
     };
 
