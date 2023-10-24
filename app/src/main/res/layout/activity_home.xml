@@ -14,11 +14,12 @@
         android:layout_marginTop="16dp"
         android:gravity="center_horizontal"
         android:text="XML Layouts"
+        android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:orientation="horizontal"
         android:weightSum="3">
@@ -29,7 +30,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:text="Linear \nLayout" />
+            android:text="Linear \nLayout"
+            android:textAllCaps="true" />
 
         <Button
             android:id="@+id/btn_frame_layout"
@@ -37,7 +39,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:text="Frame \nLayout" />
+            android:text="Frame \nLayout"
+            android:textAllCaps="true" />
 
         <Button
             android:id="@+id/btn_relative_layout"
@@ -45,14 +48,49 @@
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:text="Relative \nLayout" />
+            android:text="Relative \nLayout"
+            android:textAllCaps="true" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="ANIMATIONS"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btn_animation_loading"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="4dp"
             android:layout_weight="1"
-            android:text="Button" />
+            android:backgroundTint="#3F51B5"
+            android:text="animation"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/btn_animation_simpson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:backgroundTint="#3F51B5"
+            android:text="simpson"
+            android:textAllCaps="true" />
+
     </LinearLayout>
 
 </LinearLayout>
