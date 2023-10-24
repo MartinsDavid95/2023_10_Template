@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:tag="A02_SimpsonActivity"
     tools:context=".HomeActivity">
 
     <TextView
@@ -30,6 +31,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:layout_weight="1"
+            android:onClick="pushedButton"
+            android:tag="a01_layout.L01_LinearActivity"
             android:text="Linear \nLayout"
             android:textAllCaps="true" />
 
@@ -39,6 +42,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:layout_weight="1"
+            android:onClick="pushedButton"
+            android:tag="a01_layout.L02_FrameActivity"
             android:text="Frame \nLayout"
             android:textAllCaps="true" />
 
@@ -48,6 +53,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:layout_weight="1"
+            android:onClick="pushedButton"
+            android:tag="a01_layout.L03_RelativeActivity"
             android:text="Relative \nLayout"
             android:textAllCaps="true" />
 
@@ -77,6 +84,8 @@
             android:layout_margin="4dp"
             android:layout_weight="1"
             android:backgroundTint="#3F51B5"
+            android:onClick="pushedButton"
+            android:tag="a03_animation.A01_LoadingActivity"
             android:text="animation"
             android:textAllCaps="true" />
 
@@ -87,6 +96,8 @@
             android:layout_margin="4dp"
             android:layout_weight="1"
             android:backgroundTint="#3F51B5"
+            android:onClick="pushedButton"
+            android:tag="a03_animation.A02_SimpsonActivity"
             android:text="simpson"
             android:textAllCaps="true" />
 
@@ -114,9 +125,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
-            android:backgroundTint="#03A9F4"
-            android:text="list view"
             android:layout_weight="1"
+            android:backgroundTint="#03A9F4"
+            android:onClick="pushedButton"
+            android:tag="a04_list.S01_ListViewActivity"
+            android:text="list view"
             android:textAllCaps="true" />
 
         <Button
@@ -124,9 +137,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
-            android:backgroundTint="#03A9F4"
-            android:text="Spinner"
             android:layout_weight="1"
+            android:backgroundTint="#03A9F4"
+            android:onClick="pushedButton"
+            android:text="Spinner"
             android:textAllCaps="true" />
 
     </LinearLayout>

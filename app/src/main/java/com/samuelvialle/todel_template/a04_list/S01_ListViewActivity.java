@@ -34,9 +34,11 @@ public class S01_ListViewActivity extends AppCompatActivity {
     };
 
     public void populateListView(){
+
+        String[] colorList = getResources().getStringArray(R.array.color_list);
         final ArrayAdapter<String> adapter = new ArrayAdapter<>(
           //le contexte    la mise en forme           les données à afficher
-          this, android.R.layout.simple_list_item_activated_1, stagiaires);
+          this, android.R.layout.simple_list_item_activated_1, colorList);
 
         lvListView.setAdapter(adapter);
     }

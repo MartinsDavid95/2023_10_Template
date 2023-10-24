@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Template</string>
+    <string name="list_title">Les couleurs</string>
+
+    <string-array name="color_list">
+        <item>Bleu</item>
+        <item>Vert</item>
+        <item>Rouge</item>
+        <item>Jaune</item>
+        <item>Orange</item>
+    </string-array>
+</resources>
